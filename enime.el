@@ -4,7 +4,8 @@
 
 ;; Author: xl666 <xavi004@gmail.com>
 ;; URL: https://github.com/xl666/enime
-;; Version: 0.1
+;; Version: 0.1.1
+;; Package-Requires: ((emacs "25.1") (cl-lib "0.7") (eieio "1.4") (mpv "0.2") (transient "0.3") (dash "2") (request "0.3") (esxml "0.3"))
 
 ;; This file is NOT part of GNU Emacs.
 
