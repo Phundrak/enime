@@ -616,6 +616,7 @@ Argument KEY alist key."
       (enime-select-followed-anime-transient)
     (message "No animes followed")))
 
+;;;###autoload
 (transient-define-prefix enime-main-transient ()
   "Transient prefix with main menu."
   ["Commands"
@@ -797,6 +798,7 @@ Argument ANIME-ID anime of interest."
 	      val)))
 
 
+;;;###autoload
 (transient-define-prefix enime-anime-transient ()
   "Transient prefix for an anime."
   [:class transient-row
